@@ -103,6 +103,16 @@ The system enables proactive and preventive healthcare monitoring through intell
 
 ---
 
+##🔐 License & Usage
+
+© 2026 Guhan Senthil. All Rights Reserved.
+
+This project and its source code are the intellectual property of the author.
+Unauthorized copying, modification, distribution, or use of this code in any form 
+is strictly prohibited without explicit written permission.
+
+---
+
 ## ⚙️ Installation & Setup
 
 ```bash
@@ -117,11 +127,3 @@ npm install
 
 # Start development server
 npm run dev
-
-#🔐 License & Usage
-
-© 2026 Guhan Senthil. All Rights Reserved.
-
-This project and its source code are the intellectual property of the author.
-Unauthorized copying, modification, distribution, or use of this code in any form 
-is strictly prohibited without explicit written permission.
