@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chronic Disease Detection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Enable class-based dark mode
+        theme: {
+          extend: {
+            colors: {
+              // Light Theme
+              'brand-primary': { DEFAULT: '#0D47A1', dark: '#64B5F6' },
+              'brand-secondary': { DEFAULT: '#1976D2', dark: '#42A5F5' },
+              'brand-light': { DEFAULT: '#BBDEFB', dark: '#1E3A8A' },
+              'text-primary': { DEFAULT: '#212121', dark: '#E0E0E0' },
+              'text-secondary': { DEFAULT: '#757575', dark: '#BDBDBD' },
+              'bg-light': { DEFAULT: '#F5F7FA', dark: '#111827' },
+              'bg-white': { DEFAULT: '#FFFFFF', dark: '#1F2937' },
+              'accent-green': { DEFAULT: '#4CAF50', dark: '#66BB6A' },
+              'accent-yellow': { DEFAULT: '#FFC107', dark: '#FFEE58' },
+              'accent-red': { DEFAULT: '#F44336', dark: '#EF5350' },
+              'border-color': { DEFAULT: '#E0E0E0', dark: '#374151' },
+            },
+            fontFamily: {
+              'sans': ['Inter', 'sans-serif'],
+              'mono': ['Roboto Mono', 'monospace'],
+            },
+            keyframes: {
+              'status-change': {
+                '0%, 100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 rgba(255, 193, 7, 0.7)' },
+                '50%': { transform: 'scale(1.02)', boxShadow: '0 0 10px 5px rgba(255, 193, 7, 0)' },
+              },
+            },
+            animation: {
+              'status-change': 'status-change 0.7s ease-in-out',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "firebase/app": "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js",
+    "firebase/database": "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js",
+    "firebase/analytics": "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js",
+    "firebase/": "https://aistudiocdn.com/firebase@^12.2.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-bg-light text-text-primary dark:bg-bg-light-dark dark:text-text-primary-dark">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

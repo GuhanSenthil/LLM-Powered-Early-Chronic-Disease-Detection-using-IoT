@@ -1,0 +1,5 @@
+{
+  "name": "AI-Powered Early Chronic Disease Detection",
+  "description": "An advanced health monitoring dashboard that leverages simulated IoT sensor data and the power of Large Language Models (LLMs) to provide early-stage risk analysis for various chronic diseases. The application visualizes key health metrics and generates AI-driven insights to promote proactive health management.",
+  "requestFramePermissions": []
+}
